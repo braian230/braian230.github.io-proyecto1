@@ -681,3 +681,16 @@ header
       .titulo-visitanos{
         background-color: blue;
       }
+/*GITHUB RAMA TRANSICIONES*/
+.rama-transiciones{
+  width: 150px;
+  height: 150px;
+  background: coral;
+  border-radius: 30%;
+  transition: all 2s;
+}
+
+.rama-transiciones:hover{
+  width: 300px;
+  background-color: rgb(33, 34, 36);
+}
